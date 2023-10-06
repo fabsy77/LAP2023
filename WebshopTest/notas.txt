@@ -1,0 +1,24 @@
+em index
+
+ require_once('./class/database.php');
+ 
+
+
+ $class_pdo = new Database(); //preciso mesmo instanciar database ou so inportar ja esta ok?
+
+ nao entendi o pq dessa verificacao:
+
+   if( isset($_SESSION['user_info'][0]['role_id'] )  == 'user'){
+
+        header('Location: ../index.php');
+
+        return false;
+
+    }
+
+
+    addslashes
+    falta logout
+
+    em form creat product nao esta caindo no else
+    
